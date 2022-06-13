@@ -1,0 +1,51 @@
+header{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.title span{
+    color: yellow;
+}
+.row_block{
+    width: 763px;
+    height: 297px;
+    display: flex;
+    justify-content: flex-start;
+}
+.row_content{
+    font-family: 'Lato'; 
+    letter-spacing: 0.2px;
+    color: #000000;
+    font-style: normal;
+}
+.row_content h2{
+   
+    
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+   
+    
+}
+.row_content p{
+    
+    
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    
+}
+.row_content a{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px
+    color: #009D9D;
+    background: #EBE9E9;
+    border-radius: 10px;
+    margin: 8px 8px 8px 28px;
+}
