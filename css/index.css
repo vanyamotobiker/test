@@ -1,3 +1,6 @@
+body{
+    background-color: #E5E5E5;
+}
 header{
     text-align: center;
     font-family: 'Lato';
@@ -7,15 +10,21 @@ header{
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #000000;
+    margin: 70px 0px 130px 0px;
+   
 }
 .title span{
     color: yellow;
 }
 .row_block{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 763px;
     height: 297px;
     display: flex;
     justify-content: flex-start;
+
 }
 .row_content{
     font-family: 'Lato'; 
@@ -24,28 +33,28 @@ header{
     font-style: normal;
 }
 .row_content h2{
-   
-    
     font-weight: 700;
     font-size: 28px;
     line-height: 38px;
-   
-    
 }
 .row_content p{
-    
-    
     font-weight: 300;
     font-size: 16px;
     line-height: 31px;
-    
 }
 .row_content a{
+    text-decoration: none;
     font-weight: 400;
     font-size: 26px;
-    line-height: 38px
-    color: #009D9D;
+    line-height: 38px;
+    color: #009d9d;
     background: #EBE9E9;
     border-radius: 10px;
     margin: 8px 8px 8px 28px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    margin-bottom: 20px;
 }
