@@ -6,56 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
         <div class="title">What We <span>Offer</span></div>
     </header>
-
-    <div class="container overflow-hidden">
-        <div class="row gx-5">
-            <div class="col-md-6">
-                <div class="container">
-                    <div class="row p-3 border bg-light" >
-                        <div class="row_foto col-md-6">
-                            <img src="image/1.png" class="img-fluid" alt="">
+    <div class="container" id="my-container">
+        <div class="row g-5">
+            <div class="col-lg-6 ">
+                <div class="card">
+                    <div class="row g3">
+                        <div class="col-lg-6">
+                            <img src="https://cdn.pixabay.com/photo/2016/12/04/21/58/rabbit-1882699_960_720.jpg"
+                                class="card-thumbnail" alt="">
                         </div>
-                        <div class="row_content col-md-6">
-                            <h2>Logo Design</h2>
-                            <p>Need a quality, custom logo? Our team will create a stunning, original design for you
-                                that
-                                will make your business stand out from the ...</p>
-                            <a href="#">Learn more</a>
+                        <div class="col-lg-6 d-flex flex-column justify-content-between align-items-space-between">
+                            <h4 class="pb-2">Title</h4>
+                            <p class=" card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet accusamus vel, dicta dolor atque ab enim ratione voluptatibus consequuntur quibusdam velit? Quasi ipsam quae et porro corrupti repellendus fuga inventore!
+                                Voluptates sed nisi ipsum provident ducimus? Quas voluptatibus nihil rem veritatis nemo exercitationem eligendi veniam nesciunt a, aspernatur hic sit ipsam laudantium numquam velit quidem inventore illo. Totam, sed cumque?
+                                Quia, doloribus pudiandae quisquam dignissimos eligendi ex, architecto placeat recusandae iure consectetur? Ut pariatur itaque asperiores dolore libero odit provident, dicta aliquam iure!
+                            </p>
+                            <button class="button mt-3">Click me</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="container">
-
-                    <div class="row p-3 border ">
-                        <div class="row_foto col-md-6">
-                            <img src="image/2.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="row_content col-md-6">
-                            <h2>Website Development</h2>
-                            <P>Need a quality, custom logo? Our team will create a stunning, original design for you
-                                that
-                                will make your business stand out from the ...</P>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                    </di∏v>
-                </div>
+            <div class="col-lg-6 ">
+                <div class="card"></div>
             </div>
+
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-            crossorigin="anonymous"></script>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
