@@ -48,7 +48,7 @@ body {
 
 }
 
-header{
+.title{
     text-align: center;
     font-family: 'Lato';
     font-style: normal;
@@ -62,7 +62,7 @@ header{
    
 }
 .title span{
-    color: yellow;
+    color: #FEC83D;
 }
 button{
     border: none;
