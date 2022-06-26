@@ -57,7 +57,7 @@ header{
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #000000;
-    margin: 70px 0px 130px 0px;
+    margin: 70px 0px 100px 0px;
 
    
 }
@@ -93,9 +93,22 @@ button{
 }
 button::after{
     content:"";
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 15%;
+    transition: 0.00005s;
     background: url(../image/arrow-right.png) right no-repeat;
-    max-width: 31px;
-    min-height: 31px;
+    width: 31px;
+    height: 31px;
 
     
+}
+.button:hover{
+    background-color: #ebe9e99d ;
+    transition: 0.5s;
+}
+button:hover::after{
+    right: 20px;
+    transition: 0.5s;
 }
