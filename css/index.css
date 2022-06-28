@@ -91,7 +91,7 @@ button{
     letter-spacing: 0.2px;
     color: #009D9D;
 }
-button::after{
+.card button::after{
     content:"";
     display: block;
     position: absolute;
@@ -104,11 +104,11 @@ button::after{
 
     
 }
-.button:hover{
+.card button:hover{
     background-color: #ebe9e99d ;
     transition: 0.5s;
 }
-button:hover::after{
+.card button:hover::after{
     right: 20px;
     transition: 0.5s;
 }
@@ -155,4 +155,31 @@ button:hover::after{
 }
 .emeil_block-foto{
     border-radius: 35px;
+}
+.email_content h3{
+    font-family: 'AvertaW01-Semibold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #252B42;
+    margin-bottom: 20px;
+
+}
+.email_content p{
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858585;
+    margin-bottom: 20px;
+}
+.email_form{
+    max-width: 450px;
+    max-height: 58px;
+    
+}
+.email_form button{
+   background-color: #FEC83D;
 }
