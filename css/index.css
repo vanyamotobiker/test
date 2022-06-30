@@ -152,6 +152,7 @@ button{
     background: #EFEFF1;
     box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.1);
     border-radius: 35px;
+    margin-bottom: 118px;
 }
 .emeil_block-foto{
     border-radius: 35px;
@@ -181,5 +182,50 @@ button{
     
 }
 .email_form button{
-   background-color: #FEC83D;
+    color: white;
+    background-color: #FEC83D;
+}
+.footer_messenger img{
+    
+}
+
+.footer_block_ul{
+    gap: 213px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #1E2833;
+}
+.footer_block_ul li{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.footer_block_ul li:first-child{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.231818px;
+    color: #C84B04;
+}
+
+
+.footer_block_logo img{
+    margin-bottom: 141px;
+}
+.footer_block_logo p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.3px;
+    color: #1E2833;
+}
+.footer{
+    margin-bottom: 120px;
 }
