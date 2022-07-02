@@ -93,6 +93,11 @@ button{
     letter-spacing: 0.2px;
     color: #009D9D;
 }
+@media (max-widtH: 991.98px){
+    .content{
+        max-height: 100%;
+    }
+}
 .card button::after{
     content:"";
     display: block;
